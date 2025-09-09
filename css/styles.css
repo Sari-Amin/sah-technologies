@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins" ,sans-serif;
+}
+
+.navbar {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 12px;
+    height: 65px;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.navbar ul li {
+    margin-left: 12px;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    min-height: 400px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.call-to-action{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.call-to-action .container {
+    background-color: #3882f6;
+    color: #fff;
+    height: 50%;
+    width: 80%;
+    display: flex;
+    padding: 12px 24px;
+    gap: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+.call-to-action button {
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    padding: 8px;
+    color: #fff;
+    border-radius: 8px;
+
+}
+.footer {
+    height: 70px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    align-content: center;
+    text-align: center;
+}
